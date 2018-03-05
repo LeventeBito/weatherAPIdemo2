@@ -1,5 +1,5 @@
-var feedURL = "https://www.metaweather.com/api/location/44418/","https://www.metaweather.com/static/img/weather/s.svg";
-
+var feedURL = "https://www.metaweather.com/api/location/44418/";
+var feedpic = "https://www.metaweather.com/static/img/weather/s.svg";
 
 $(document).on('pagecreate', '#feedPage', function(event) {
 	
@@ -8,6 +8,10 @@ $(document).on('pagecreate', '#feedPage', function(event) {
 	var xmlhttp=new XMLHttpRequest();
 	xmlhttp.open("GET", feedURL, false);
 	xmlhttp.send();
+    
+    var xmlhttp2=new XMLHttpRequest();
+	xmlhttp2.open("GET", feedpic, false);
+	xmlhttp2.send();
 		
 		
 	<!-- parse the resulting JSON into Javascript Data Object -->
