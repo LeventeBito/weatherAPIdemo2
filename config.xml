@@ -13,9 +13,7 @@
         An example of using a simple weather API
     </description>
 
-    <author href="http://www.worcester.ac.uk/discover/chris-bowers.html" email="c.bowers@worc.ac.uk">
-        Chris P. Bowers
-    </author>
+    
 	
 	<!-- add plugins required for OAuth.io -->
 	
