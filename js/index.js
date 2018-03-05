@@ -1,5 +1,5 @@
-var feedURL = "https://www.metaweather.com/api/location/44418/";
-var feedURL = "https://www.metaweather.com/static/img/weather/s.svg";
+var feedURL = "https://www.metaweather.com/api/location/44418/","https://www.metaweather.com/static/img/weather/s.svg";
+
 
 $(document).on('pagecreate', '#feedPage', function(event) {
 	
